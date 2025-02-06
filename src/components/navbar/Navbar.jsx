@@ -19,6 +19,7 @@ function Navbar() {
             Home
           </Link> */}
           <Link to={"/"} className="text-white">About</Link>
+          <Link to={"/adminlogin"} className="text-white">Admin</Link>
 
           <Link className="text-white">Profile</Link>
           {ifUser ? (

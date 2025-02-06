@@ -37,7 +37,7 @@ function AdminLogin() {
   return (
     <div className="w-80 mx-auto mt-20 py-10 px-10 border  border-gray-600 rounded-lg rounded-lg hover:shadow-2xl transition-all ease-in-out">
 
-    <h1 className="text-bold text-lg text-center">Login Here</h1>
+    <h1 className="text-bold text-lg text-center">Admin Login Here</h1>
 
    <form onSubmit={handleSubmit} className="mt-5 flex flex-col gap-5">
    <input type="email" className="py-3 px-8 rounded-md border border-gray-800" placeholder="Enter email..." name="email" value={loginAdmin.email} onChange={handleLogin} />
