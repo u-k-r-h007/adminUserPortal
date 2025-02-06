@@ -15,9 +15,9 @@ function Navbar() {
           <h1 className="text-bold text-3xl text-white">Logo</h1>
         </div>
         <div className="flex justify-evenly gap-5">
-          <Link to="/" className="text-white">
+          {/* <Link to="/" className="text-white">
             Home
-          </Link>
+          </Link> */}
 
           <Link className="text-white">Profile</Link>
           {ifUser ? (

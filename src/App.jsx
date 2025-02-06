@@ -7,7 +7,7 @@ import Signup from "./pages/auth/Signup";
 import AdminSignup from "./components/admin/AdminSignup";
 import AdminLogin from "./components/admin/AdminLogin";
 import Admin from "./components/admin/Admin";
-import PrivateRoute from "./components/PrivateRoute";
+
 
 function App() {
   return (
@@ -15,7 +15,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<PrivateRoute element={<Home />} />} />
+          {/* <Route path="/" element={<PrivateRoute element={<Home />} />} /> */}
+
+          <Route path="/" element={<Home />} />
 
           {/* Auth Routes */}
           <Route path="/login" element={<Login />} />

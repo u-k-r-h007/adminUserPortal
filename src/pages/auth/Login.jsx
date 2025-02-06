@@ -57,9 +57,10 @@ function Login() {
     );
 
     if (user) {
-      dispatch(login(loginData));
+      // Dispatch login action to update Redux store
+      dispatch(login(user)); 
       alert("Login successful!");
-      navigate("/");
+      navigate("/"); // Redirect to the home page
     } else {
       alert("Invalid email or password. Please try again.");
     }
