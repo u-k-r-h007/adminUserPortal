@@ -7,6 +7,7 @@ import Signup from "./pages/auth/Signup";
 import AdminSignup from "./components/admin/AdminSignup";
 import AdminLogin from "./components/admin/AdminLogin";
 import Admin from "./components/admin/Admin";
+import About from "./pages/About";
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <Routes>
           {/* <Route path="/" element={<PrivateRoute element={<Home />} />} /> */}
 
-          <Route path="/" element={<Home />} />
+          <Route path="/dashboard" element={<Home />} />
+          <Route path="/" element={<About />} />
 
           {/* Auth Routes */}
           <Route path="/login" element={<Login />} />

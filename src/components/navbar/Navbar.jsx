@@ -18,6 +18,7 @@ function Navbar() {
           {/* <Link to="/" className="text-white">
             Home
           </Link> */}
+          <Link to={"/"} className="text-white">About</Link>
 
           <Link className="text-white">Profile</Link>
           {ifUser ? (
